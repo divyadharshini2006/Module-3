@@ -27,4 +27,4 @@ print("Product= {}".format(sum))
 ![Screenshot 2025-04-27 153505](https://github.com/user-attachments/assets/b9203b6e-1f92-4c95-a2e1-caf65ab36414)
 
 ### RESULT
-Thus a python program to display the product of all the values which are ending with 2 from a list.
+Thus a python program to display the product of all the values which are ending with 2 from a list has been successfully implemented.
