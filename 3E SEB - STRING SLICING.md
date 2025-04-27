@@ -1,30 +1,31 @@
 # Exp.No:3e
-## SEB - STRING SLICING
-
----
+## SEB - SUM OF EVEN NUMBERS FROM LIST
 
 ### AIM  
-To write a Python function that accepts a string and forms a new string by reversing the characters from the **4th position to the 10th position** with **alternate characters**, and then prints the new string.
-
----
+To Write a python program to display the sum of all the values which are ending with 2 from a list
 
 ### ALGORITHM
 
-1. Begin the program.  
-2. Accept a string as input.  
-3. Take a slice of the input string from index **2** to **10** (Python uses 0-based indexing, so index 2 refers to the 3rd character, i.e., the 4th character in natural terms).  
-4. Reverse the sliced substring.  
-5. Extract every second character from the reversed substring using slicing (`[::2]`).  
-6. Print the final processed string.  
+1. Begin the program.
+2. Use eval() to get a list a from the user.
+3. Initialize sum to 0.
+4. Use a for loop to iterate through each element in the list a:
+5. If the element is even (i.e., i % 2 == 0), add it to sum.
+6. Print the total sum of the even numbers in the list.
 7. Terminate the program.
-
----
-
+ 
 ### PROGRAM
-
 ```
+a=eval(input())
+sum=0
+for i in a:
+    if i%2==0:
+        sum+=i
+print("Sum=",sum)
 ```
-
 ### OUTPUT
+![Screenshot 2025-04-27 155706](https://github.com/user-attachments/assets/726bcdbb-d2a9-4b30-b199-2120f9bfd7ff)
 
 ### RESULT
+Thus a python program to display the sum of all the values which are ending with 2 from a list has been successfully implemented.
+
